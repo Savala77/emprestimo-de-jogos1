@@ -3,7 +3,9 @@ package br.ufms;
 import java.time.LocalDate;
 import br.ufms.model.Usuario;
 
+
 public class Main {
+
     public static void main(String[] args) {
 
         System.out.println("=== Teste de Validação com o Framework Validar ===\n");
@@ -11,7 +13,7 @@ public class Main {
         try {
             Usuario usuarioValido = new Usuario(
                     "Kaleb Frei",
-                    "kalebskrr@hotmail.com",
+                    "matheus@hotmail.com",
                     "kalebskrr",
                     "123456",
                     "111.444.777-35",
